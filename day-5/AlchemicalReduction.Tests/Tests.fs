@@ -2,9 +2,9 @@ module Tests
 
 open System
 open Xunit
-open Alchemical.Reduction
+open AlchemicalReduction.API.Reduction
 
 [<Fact>]
-let ``Removes Polymers Correctly`` () =
+let ``Removes Polymers Correctly``() =
     Assert.Equal("", "")
     Assert.Equal("dabCBAcaDA", reducePolymers "dabAcCaCBAcCcaDA")

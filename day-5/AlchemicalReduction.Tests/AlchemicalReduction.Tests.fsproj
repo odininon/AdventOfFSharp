@@ -3,8 +3,8 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AlchemicalReduction\AlchemicalReduction.fsproj">
-      <Name>AlchemicalReduction.fsproj</Name>
+    <ProjectReference Include="..\AlchemicalReduction.API\AlchemicalReduction.API.fsproj">
+      <Name>AlchemicalReduction.API.fsproj</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
